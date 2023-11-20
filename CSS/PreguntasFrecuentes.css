@@ -52,6 +52,10 @@ body{
   padding-left: 0%;
   }
 
+
+
+/* Estilos para preguntas y respuestas */
+
 .contenedor {
   width: 60%;
   height: auto;
@@ -71,8 +75,6 @@ header {
 header h1 {
   font-size: 28px;
 }
-
-/* Estilos para preguntas y respuestas */
 .caja{
   margin: 20px 0;
 }

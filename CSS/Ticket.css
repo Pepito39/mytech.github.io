@@ -94,16 +94,18 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-.ticket-cacelar {
-    width: 100%;
-    background-color: #e33428;
-    color: white;
+.ticket-cancelar {
+    text-decoration: none; /* Quita la decoración del enlace */
+    background-color: red; /* Establece el fondo en color rojo */
+    padding: 8px 12px; /* Añade relleno para mejorar la apariencia */
+    color: white; /* Establece el color del texto en blanco */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    border-radius: 4px; /* Añade bordes redondeados */
+    margin-top: 2%;
     padding: 15px 20px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    text-align: center;
 }
+
 
 
 /* Estilo para el footer */

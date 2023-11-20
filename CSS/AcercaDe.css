@@ -1,48 +1,16 @@
 body{
-  font-family: calibri;
-}
-
-.titulo{
-	text-align: center;
-	font-family: calibri;
-	font-size: 50px;
-	color: white;
-}
-body{
   background-color: black;
   font-family: calibri;
   color: white;
   display: flex;
   flex-direction: column;
 }
-.texto{
-  text-align: center;
-  font-family: 30px;
-  font-size: 30px;
-  color: white;
-}
-.fotosreferencia{
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin-bottom: 2%;
-}
-img.mediana{
-  width: 200px;
-  height: 200px;
-}
+
 .menu-container {
   background-color: #c0c0c0; /* Color de fondo azul medianoche */
   display: flex;
   align-items: center;
   
-}
-
-/*Cambiar el tamaño del logo*/
-.logo {
-  width: 80px;
-  height: auto;
-  padding-left: 0%;
 }
 
 /* Estilo para las opciones de enlace */
@@ -73,6 +41,11 @@ img.mediana{
 }
 
 /*Imagenes*/
+.logo {
+  width: 80px;
+  height: auto;
+  padding-left: 0%;
+}
 .menu-icono {
   font-size: 24px;
   margin-right: 20px;
@@ -80,6 +53,30 @@ img.mediana{
   text-decoration: none;
   cursor: pointer;
   justify-content: left;
+}
+/*Contenido*/
+.titulo{
+	text-align: center;
+	font-family: calibri;
+	font-size: 50px;
+	color: white;
+}
+
+.texto{
+  text-align: center;
+  font-family: 30px;
+  font-size: 30px;
+  color: white;
+}
+.fotosreferencia{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 2%;
+}
+img.mediana{
+  width: 200px;
+  height: 200px;
 }
 
 footer {

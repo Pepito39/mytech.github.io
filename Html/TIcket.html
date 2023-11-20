@@ -22,16 +22,17 @@
     </nav>
     <div class="ticket-form">
         <form action="/submit_ticket" method="post" enctype="multipart/form-data">
-            <label for="name">Nombre y apellido:</label><br>
+            <label for="name">Nombre y apellido:</label>
             <input type="text" id="name" name="name"><br>
-            <label for="email">Correo:</label><br>
+            <label for="email">Correo:</label>
             <input type="email" id="email" name="email"><br>
-            <label for="description">Descripción:</label><br>
+            <label for="description">Descripción:</label>
             <textarea id="description" name="description"></textarea><br>
-            <label for="image">Añadir imagen:</label><br>
+            <label for="image">Añadir imagen:</label>
             <input type="file" id="image" name="image"><br>
             <input class="ticket-enviar" type="submit" value="Enviar">
-           <a href="Contacto.html"><input class="ticket-cacelar" type="submit" value="Cancelar"></a>
+            <a href="Contacto.html" class="ticket-cancelar">Cancelar</a>
+
         </form>
     </div>
     <footer>
